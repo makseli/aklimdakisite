@@ -1,0 +1,93 @@
+/* Favori Sitelerinizi Kaydedin. Css Documentimiz */
+body { /*background:url('_tema/x1/images/bg.gif') repeat-x;*/ margin:0px; background-color:#ffffff; width:100%; text-align:left; }
+div, p, ul,li,h1, h2, h3, h4, h5, img { padding:0px; margin:0px; }
+ul{ list-style-type:none; }
+
+div.SiteKaydetIcerikAlani{ position:absolute; width:90%; padding:15px; font:normal 13px Calibri, Verdana; color:#343434; text-align:left; float:left; }
+
+div.AklimdakiSiteLogo{ padding:5px; text-align:left; background-image:url(../images/bg.png); background-repeat:repeat-x; padding-top:0px; }
+
+div.FavoriSiteSlogan{ padding:5px; left:470px; position:absolute; top:55px; font:normal 19px Calibri, Verdana; text-decoration:none; }
+
+a.KaydedilmisSite{ text-decoration:none; font:normal 15px  Verdana; color:#3096d0; }
+a.KaydedilmisSite:hover{ text-decoration:underline; font:normal 15px  Verdana; color:#106b9f; }
+
+/* Bu da a.KaydedilmisSite nin ana domaini belirtmekte */
+a.SikKullanilanSite{ text-decoration:none; font:normal 11px  Calibri, Verdana; color:#343434;}
+a.SikKullanilanSite:hover{ text-decoration:underline; font:normal 11px  Calibri, Verdana; }
+
+span.EklenenSiteAciklama{ font:normal 10px Calibri,Verdana; color:#8b7b8b; }
+
+div.AklimdakiSiteMenuNavi{ float:right; right:15px; padding:7px; position:absolute; top:10px; color:#33c6d3; background-color:#3a3a3a; font:normal 10px Calibri,Verdana; }
+
+a.MenuNavigasyon{ font:normal 13px Calibri,Verdana; text-decoration:none; color:#33c6d3; background-color:#3a3a3a; }
+a:hover.MenuNavigasyon{ font:normal 13px Calibri,Verdana; border-top:1px dotted #d0d0d0; border-bottom:1px dotted #d0d0d0; color:#3a3a3a; background-color:#33c6d3; text-decoration:none; }
+
+a.KisaLink{ text-decoration:none; font:normal 10px Calibri, Verdana; color:#6bb5e0; }
+a.KisaLink:hover{ text-decoration:underline; font:normal 10px Calibri, Verdana; color:#106b9f; background-color:#efefef; }
+
+a.SiteKaydetmeSistemLinkleri{ text-decoration:none; color:#cf0000; font:normal 12px Calibri, Verdana; }
+
+span.IseYararSiteyiGonderen{ font:normal 10px Arial; color:#b4b3b3; }
+a.IseYararSiteyiGonderen{ text-decoration:none; font:bold 11px Verdana; color:#e887c4; }
+a.IseYararSiteyiGonderen:hover{ text-decoration:underline; font:bold 11px Verdana; color:#c71585; }
+
+div.IseYararSite{ position:static; text-align:left; background-color:#f3f2f5; padding:8px;  width:750px; height:50px; }
+div.IseYararSite:hover{ position:static; text-align:left; background-color:#bcdde8; padding:8px;  width:750px; height:50px; }
+
+div.IseYararSiteEtiketKategori{ float:right; text-align:right; background-color:#f3f2f5; top:5px; color:#e887c4; }
+div.IseYararSiteEtiketKategori:hover{float:right; text-align:right; background-color:#6c3caa; top:5px; color:#ffffff; }
+
+span.SiteIslem{ display:none; font:normal 10px Verdana; color:#343434; }
+
+
+
+
+
+
+
+/* -------------------------------------------- */
+/*   Pagination: Digg Style     */
+/* -------------------------------------------- */
+#pagination-digg ul{border:0; margin:0; padding:0;}
+
+#pagination-digg li{
+ display: inline;
+ border:0 none;
+ font-size:11px;
+ list-style-image:none;
+ list-style-position:outside;
+ list-style-type:none;
+ margin:0;
+ padding:0;
+
+}
+#pagination-digg a{
+ border:solid 1px #bbb;
+ margin-right:2px;
+}
+
+#pagination-digg .next a,
+#pagination-digg .previous a {
+ font-weight:bold;
+ padding:3px 6px;
+} 
+#pagination-digg .active{
+ background:#336699 none repeat scroll 0 0;
+ color:#FFFFFF;
+ font-weight:bold;
+ display:block;
+ float:left;
+ padding:6px 6px;
+}
+#pagination-digg a:link, 
+#pagination-digg a:visited {
+ color:#336699;
+ display:block;
+ float:left;
+ padding:3px 6px;
+ text-decoration:none;
+}
+#pagination-digg a:hover{
+ border:solid 1px #380101;
+}
